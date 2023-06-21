@@ -2,4 +2,74 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  border: groove black 3px;
+}
+
+.container{
+  display: flex;
+ 
+}
+
+#details{
+  background-color: red;
+display:grid;
+grid-template-columns: auto auto auto auto;
+justify-content: space-evenly;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+.lr{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  
+}
+.about{
+  background-color: rgb(160, 157, 157);
+}
+.new-properties{
+  background-color: rgb(160, 157, 157);
+}
+.Listings{
+  background-color: rgb(160, 157, 157);
+}
+.market-report{
+  background-color: rgb(160, 157, 157);
+ 
+}
+.market-report{
+  background-color: rgb(160, 157, 157);
+  
+}
+.hud{
+  background-color: rgb(160, 157, 157);
+  
+
+}
+.contact{
+  background-color: rgb(160, 157, 157);
+
+}
+.und{
+  margin-left: 200px;
+}
+#par{
+   margin-left: 100px;
+
 }
